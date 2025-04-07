@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace ShotsFired
 {
     [Guid("075ED322-CDF9-4FA3-BAE9-A195E991A453")]
-    [CalloutProperties("Shots Fired","DevKilo","1.0")]
+    [CalloutProperties("Shots Fired", "DevKilo","1.0")]
     public class ShotsFired : Callout
     {
         Random rnd = new Random();
